@@ -15,3 +15,4 @@
 - **Database:** Mongo db and mongoose ODM for connection.
 - **Frontend:** React js.
 - **Deployed in Heroku**. url: https://finlandtripadvisor.herokuapp.com/.
+- **Only desktop version**
