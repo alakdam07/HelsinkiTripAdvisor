@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.marker.red path {
+  fill: #f05305;
+}
+
+.marker.yellow path {
+  fill: #f3b73e;
+}
+
+.popup {
+  width: 30vw;
+  padding: 1rem;
+  background-color: wheat;
+}
+
+.popup img {
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.map-body {
+  padding-left: 80px;
+}
+
+.entry-form label,
+.entry-form input,
+.entry-form textarea,
+.entry-form button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 60%;
+}
+
+.error {
+  color: #f05305;
+}
+
+/*Headers*/
+.site-title {
+  background: url("./img/img1.jpg");
+  background-size: cover;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+}
+
+.site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.site-title h1,
+h3 {
+  margin: 0.3rem;
+  font-family: 'Lemonada', cursive;
+}
+
+/*body*/
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -15vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 10vmin 5vmin 10vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
