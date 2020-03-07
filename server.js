@@ -32,7 +32,4 @@ app.get("*", (req, res) => {
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`🚀 App is listening at port ${port}!`));
 
-//mongodb+srv://MyhelsinkiTravel:Joymaaloknath123@cluster0-smhek.mongodb.net/test?retryWrites=true&w=majority
 
-//$(heroku config:get DATABASE_URL -a myfinland) nodemon
-//MONGODB_URI=$(heroku config:get MONGODB_URI -a finlandtripadvisor2020) nodemon
